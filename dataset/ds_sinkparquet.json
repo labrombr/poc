@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "snapshot",
+				"folderPath": "Dest",
 				"fileSystem": "adfcontainer"
 			},
 			"compressionCodec": "snappy"

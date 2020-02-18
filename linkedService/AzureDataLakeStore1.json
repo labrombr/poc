@@ -1,0 +1,14 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://ssadlsgen1.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "2de8a433-18d4-4fab-a21f-5c33eed6a59b",
+			"subscriptionId": "2aaf9264-298b-44ee-a86d-ea59e7deb2d2",
+			"resourceGroupName": "sspc"
+		}
+	}
+}

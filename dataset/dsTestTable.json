@@ -1,0 +1,30 @@
+{
+	"name": "dsTestTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_SQLPAAS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ColumnName2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ColumnName3",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "test"
+		}
+	}
+}

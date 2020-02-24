@@ -1,0 +1,12 @@
+{
+	"name": "ls_SQLPAAS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlpremium.database.windows.net;initial catalog=ADFConfig;user id=blabrom",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRZTkFNSUNBREZfMmU2MDQxMzctYzk5Yi00MDQwLTk3NjAtYmU0NWI4MmQ0YzA1Ig0KfQ=="
+		}
+	}
+}
